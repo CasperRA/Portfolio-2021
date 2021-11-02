@@ -1,9 +1,9 @@
 <template>
-  <div id="nav">
+  <!-- <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+  </div> -->
+  <router-view />
 </template>
 
 <script>
@@ -14,26 +14,45 @@ export default {
 }
 </script>
 
-
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@import "@/assets/_shared.scss";
+#background-hero {
+  background-image: url("assets/hero.jpg");
+  background-size: cover;
+  background-color: red;
+  width: 100%;
+  height: 100vh;
+  background-position-y: 40%;
+  z-index: -1;
+  opacity: 20%;
+  position: absolute;
 }
 
-#nav {
-  padding: 30px;
+#intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: $orange;
+  font-weight: bold;
+  height: 100vh;
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+#intro img {
+  width: 20%;
+}
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+#intro h1 {
+  margin-top: 2rem;
+  font-weight: 800;
+  font-size: 4.25em;
+}
+
+body {
+  background-color: $primary;
+  height: 200vh;
+  color: $white;
+  font-family: $font;
 }
 </style>
