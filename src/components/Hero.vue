@@ -1,16 +1,25 @@
 <template>
   <section id="background-hero"></section>
-    <section id="intro">
-        <img src="@/assets/selflogo.png" alt="">
-        <h1>Casper Reedtz <br> Andersen</h1>
-    </section>
+  <Nav />
+  <section id="intro">
+    <img src="@/assets/selflogo.png" alt="" />
+    <h1>
+      Casper Reedtz <br />
+      Andersen
+    </h1>
+  </section>
 </template>
 
 <script>
+import Nav from "@/components/Nav.vue";
+
 export default {
-  name: 'Hero',
+  name: "Hero",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+  components: {
+    Nav,
+  },
+};
 </script>

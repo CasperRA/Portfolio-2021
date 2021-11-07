@@ -1,7 +1,6 @@
 <template>
-    <section id="nav">
-    <ul>
-      <li>Home</li>
+  <section id="nav">
+    <ul class="navList">
       <li>About Me</li>
       <li>Projects</li>
       <li>Contact</li>
@@ -11,9 +10,9 @@
 
 <script>
 export default {
-  name: 'Nav',
+  name: "Nav",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
