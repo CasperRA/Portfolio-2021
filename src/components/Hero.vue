@@ -4,8 +4,8 @@
   <section id="intro">
     <img src="@/assets/selflogo.png" alt="" />
     <h1>
-      Casper Reedtz <br />
-      Andersen
+      CASPER REEDTZ <br />
+      ANDERSEN
     </h1>
   </section>
 </template>
