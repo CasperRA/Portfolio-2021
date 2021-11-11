@@ -7,7 +7,7 @@
         Striving towards learning <br />
         new technology.
       </h4>
-      <p>
+      <p class="aboutIntro">
         As a Multimediadesigner I've had a lot of different projects, requiring
         different skills.
         <br />

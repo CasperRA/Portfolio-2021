@@ -1,6 +1,5 @@
 <template>
   <section id="background-hero"></section>
-  <Nav />
   <section id="intro">
     <img src="@/assets/selflogo.png" alt="" />
     <h1>
